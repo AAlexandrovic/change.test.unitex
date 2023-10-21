@@ -1,0 +1,482 @@
+
+  @media (max-width: 576px) {
+    .title {
+      max-width: 276px;
+      max-height: 64px;
+      font-family: Raleway;
+      font-size: 25px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: 0em;
+      text-align: left;
+    }
+  }
+
+  @media (max-width: 576px) {
+    #myModalLabel p{
+    min-width: 202px;
+    min-height: 20px;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+  }
+  }
+  @media (min-width: 768px) {
+    #myModalLabel p{
+    min-width: 202px;
+    min-height: 20px;
+    font-family: Raleway;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: left;
+  }
+  }
+
+  @media (min-width: 300px) and (max-width:767px) {
+    .modal-header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .h-image {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .close {
+      justify-content: end;
+      align-items: end;
+    }
+  }
+
+
+  @media (min-width: 1300px) and (max-width: 2700px) {
+    .contact span {
+      padding-left: 100px;
+    }
+
+    .city span {
+      padding-left: 100px;
+    }
+  } 
+
+
+  .contact span::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('/items/1.svg');
+    background-size: cover;
+    margin-right: 10px;
+  }
+
+  .number span::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('/items/2.svg');
+    background-size: cover;
+    margin-right: 10px;
+  }
+
+  .city span::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('/items/4.svg');
+    background-size: cover;
+    margin-right: 10px;
+  }
+
+  .mail span::before {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url('/items/3.svg');
+    background-size: cover;
+    margin-right: 10px;
+  }
+
+  .top {
+    margin-top: 145px;
+  }
+
+  h1 {
+    max-width: 1400px;
+    max-height: 45px;
+  }
+
+  .time {
+    margin-left: 10%;
+    margin-top: 50px;
+  }
+
+  .text1 {
+    width: 31px;
+    height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .text2 {
+    width: 32px;
+    height: 34px;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 34px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .text3 {
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 42px;
+    height: 17px;
+    color: #7B7B7B;
+  }
+
+  .button {
+    width: 376px;
+    height: 60px;
+    margin-top: 50px;
+    border-radius: 10px;
+    gap: 10px;
+    background-color: #4C9BE4;
+    border: none;
+    margin-bottom: 50px;
+  }
+
+  .button text {
+    width: 165px;
+    height: 26px;
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+  }
+
+  .rectangle {
+    min-height: 122px;
+    background-color: #E1EFFB;
+  }
+
+  #myForm {
+    padding-bottom: 25px;
+    padding-top: 25px;
+  }
+
+
+  .item1 {
+    padding: 30px;
+    width: 137px;
+    height: 108px;
+    background-color: #E1EFFB;
+  }
+
+  .item2 {
+    max-width: 941px;
+    height: 48px;
+    row-gap: 110px;
+    column-gap: 110px;
+  }
+
+  .item3 {
+    width: 200px;
+    height: 19px;
+    padding: 10px;
+  }
+
+  .contact {
+    min-width: 200px;
+    min-height: 19px;
+    margin: 10px;
+  }
+
+  .contact span {
+    min-width: 129px;
+    min-height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  .contact text {
+    min-width: 37px;
+    height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  .city {
+    min-width: 135px;
+    min-height: 19px;
+    margin: 10px
+  }
+
+  .city span {
+    min-width: 55px;
+    min-height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  .city text {
+    min-width: 37px;
+    height: 19px;
+    font-family: Raleway;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  .number {
+    min-width: 200px;
+    min-height: 19px;
+    margin: 10px;
+  }
+
+  .number span {
+    min-width: 129px;
+    min-height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  .number text {
+    min-width: 37px;
+    height: 19px;
+    font-family: Raleway;
+    padding-left: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  .mail {
+    min-width: 191px;
+    min-height: 19px;
+    margin: 10px
+  }
+
+  .mail span {
+    min-width: 50px;
+    height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .mail text {
+    padding-left: 10px;
+    min-width: 105px;
+    height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+
+  }
+
+  .item3 span {
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  .item3 text {
+    width: 37px;
+    height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #161616;
+  }
+
+  #myModal {
+    min-height: 629px;
+    border-radius: 20px;
+    border: 10px, 0px, 0px, 0px;
+    padding-right: 1% !important;
+  }
+
+  .required-field {
+    color: red;
+    margin-left: 5px;
+    font-size: 1.2em;
+  }
+
+  .error {
+    min-width: 126px;
+    min-height: 17px;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #EA3232;
+  }
+
+  .modal-header {
+    border-top: 10px solid rgba(76, 155, 228, 1);
+    background-color: #F7F7F7;
+    min-height: 110px;
+  }
+
+  .modal-png {
+    width: 50px;
+    height: 50px;
+    border-radius: 500px;
+    background-color: #4C9BE4;
+  }
+
+  .modal-png {
+    padding-top: 15px;
+  }
+
+  .label text {
+    min-width: 129px;
+    min-height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .message {
+    max-width: 370px;
+    max-height: 68px;
+    font-family: Raleway;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .message text {
+    color: rgba(76, 155, 228, 1)
+  }
+
+  .rectangle span {
+    margin-top: 25px;
+    max-width: 75px;
+    min-height: 48px;
+    gap: 10;
+  }
+
+  .rectangle text {
+    width: 25px;
+    height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .rectangle p {
+    width: 75px;
+    min-height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .sm-rectangle {
+    background-color: #E1EFFB;
+    height: 122px;
+    padding-top: 60px
+  }
+
+  .sm-rectangle text:nth-of-type(2) {
+    width: 100px;
+    min-height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .sm-rectangle text:nth-of-type(1) {
+    width: 25px;
+    height: 19px;
+    font-family: Raleway;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
